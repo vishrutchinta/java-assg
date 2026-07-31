@@ -30,9 +30,9 @@ class Utility {
         Utility util = new Utility();
 
         // Calling overloaded methods
-        System.out.println("Sum of 10 and 20 (int): " + util.add(10, 20));
-        System.out.println("Sum of 5, 10, and 15 (int): " + util.add(5, 10, 15));
-        System.out.println("Sum of 4.5 and 3.2 (double): " + util.add(4.5, 3.2));
+        System.out.println("Sum of 30 and 20 (int): " + util.add(30, 20));
+        System.out.println("Sum of 23, 69, and 15 (int): " + util.add(23, 69, 15));
+        System.out.println("Sum of 4.2 and 3.2 (double): " + util.add(4.2, 3.2));
 
         System.out.println("----------------------------------");
         
