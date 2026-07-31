@@ -1,4 +1,4 @@
-class Utility {
+class Assg3 {
     static int count = 0;
 
     // Method Overloading: Method 1 (Adds two integers)
@@ -19,7 +19,6 @@ class Utility {
         return a + b;
     }
 
-    // Static method to display total operations performed
     public static void displaycount() {
         System.out.println("Total addition operations performed: " + count);
     }
@@ -27,7 +26,7 @@ class Utility {
 
 
     public static void main(String[] args) {
-        Utility util = new Utility();
+        Assg3 util = new Assg3();
 
         // Calling overloaded methods
         System.out.println("Sum of 30 and 20 (int): " + util.add(30, 20));
@@ -37,6 +36,6 @@ class Utility {
         System.out.println("----------------------------------");
         
         // Calling static method without creating a new instance
-        Utility.displaycount();
+        Assg3.displaycount();
     }
 }
